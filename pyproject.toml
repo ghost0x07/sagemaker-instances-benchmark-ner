@@ -8,6 +8,9 @@ packages = [{include = "sagemaker_instances_benchmark_ner"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+mlflow = "^2.2.2"
+llvmlite = "^0.39.1"
+numba = "^0.56.4"
 
 
 [build-system]
