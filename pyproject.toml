@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sagemaker-instances-benchmark-ner"
+version = "0.1.0"
+description = "Project to benchmark training times of Google Colab and Sagemaker instances"
+authors = ["Faiz M Khan <ghost0x07@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sagemaker_instances_benchmark_ner"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
